@@ -6,6 +6,7 @@ body{
     background-image: linear-gradient(rgb(0, 0, 0),rgba(163, 150, 150, 0.288)), url("https://images.unsplash.com/photo-1547592180-85f173990554?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
     background-size: cover;
 }
+
 a{
     text-decoration: none;
     color: white;
@@ -28,11 +29,11 @@ img{
     border-radius: 10px;
     height: 169px;
     width: 200px;
-    background-image: linear-gradient(rgb(0, 0, 0),rgba(163, 150, 150, 0.288)), url("https://img.freepik.com/free-photo/gray-abstract-wireframe-technology-background_53876-101941.jpg?size=626&ext=jpg") ;
+    background-image: linear-gradient(rgba(100, 89, 89, 0.637),rgba(163, 150, 150, 0.288)), url("https://img.freepik.com/free-photo/gray-abstract-wireframe-technology-background_53876-101941.jpg?size=626&ext=jpg") ;
 }
 
 .main-container{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Architects Daughter', cursive;
     font-weight: 700;
     height: 600px;
     display: flex;
@@ -53,10 +54,12 @@ img{
 .recipes-card:hover {
     background-color: rgba(255, 255, 255, 0.295);
     color: rgb(34, 32, 32);
-    transform: scale(1.1)
+    transform: scale(1.1);
+    border: white solid 1px;
 }
 
 .description{
     padding: 30px;
     margin: 20px;
+    font-weight: 600;
 }
