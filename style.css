@@ -5,8 +5,6 @@ body{
     width: 100%;
     box-sizing: border-box;
     text-align: center;
-    /* overflow: hidden; */
-    
 }
 
 a{
@@ -42,7 +40,7 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
-    background-attachment: fixed;
+    background-attachment: scroll   ;
 }
 
 
@@ -80,7 +78,9 @@ img{
 }
 
 @media(max-width: 1074px){
-
+    .body{
+        overflow: hidden;
+    }
     .main-container{
         margin-top: 15%;
         flex-direction: column;
