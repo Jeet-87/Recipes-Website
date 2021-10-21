@@ -97,8 +97,11 @@ img{
     }
 }
 
-@media(max-width: 570pX){
+@media(max-width: 550pX){
     h1{
         font-size: 3rem;
+    }
+    .recipes-card{
+        width: 16em;
     }
 }
