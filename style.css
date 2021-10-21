@@ -78,9 +78,6 @@ img{
 }
 
 @media(max-width: 1074px){
-    .body{
-        overflow: hidden;
-    }
     .main-container{
         margin-top: 15%;
         flex-direction: column;
